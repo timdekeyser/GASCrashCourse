@@ -8,26 +8,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01bb5365-f6a2-4173-819b-ef91e1c8154e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/GASCrashCourse/AbilitySystem/Abilities/EnemyAbilities/GA_GCC_HitReact.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/GASCrashCourse/Characters/EnemyCharacter/BP_GCC_EnemyBased.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Private/AbilitySystem/Abilities/GCC_HitReact.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Private/AbilitySystem/Abilities/GCC_HitReact.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/GASCrashCourse/AbilitySystem/Abilities/PlayerAbilities/GA_GCC_Primary.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Private/AbilitySystem/Abilities/Player/GCC_Primary.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Private/AbilitySystem/Abilities/Player/GCC_Primary.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GASCrashCourse.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GASCrashCourse.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GASCrashCourse/AbilitySystem/Abilities/EnemyAbilities/GA_GCC_HitReact.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GASCrashCourse/AbilitySystem/Abilities/EnemyAbilities/GA_GCC_HitReact.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/GASCrashCourse/AbilitySystem/Abilities/PlayerAbilities/GA_Primary.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GASCrashCourse/AbilitySystem/Abilities/PlayerAbilities/GA_Primary.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GASCrashCourse/AbilitySystem/Abilities/PlayerAbilities/GA_Secondary.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GASCrashCourse/AbilitySystem/Abilities/PlayerAbilities/GA_Secondary.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GASCrashCourse/AbilitySystem/Abilities/PlayerAbilities/GA_Tertiary.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GASCrashCourse/AbilitySystem/Abilities/PlayerAbilities/GA_Tertiary.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GASCrashCourse/Characters/EnemyCharacter/BP_GCC_Enemy_Melee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GASCrashCourse/Characters/EnemyCharacter/BP_GCC_Enemy_Melee.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GASCrashCourse/Characters/EnemyCharacter/BP_GCC_Ennemy_Ranged.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GASCrashCourse/Characters/EnemyCharacter/BP_GCC_Ennemy_Ranged.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GASCrashCourse/Characters/PlayerCharacter/BP_GCC_PlayerCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GASCrashCourse/Characters/PlayerCharacter/BP_GCC_PlayerCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GASCrashCourse/Input/IMC_Abilities.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GASCrashCourse/Input/IMC_Abilities.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/Private/GameplayTags/GCCTags.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Private/GameplayTags/GCCTags.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/Public/GameplayTags/GCCTags.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Public/GameplayTags/GCCTags.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,6 +54,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Uproject.GASCrashCourse.executor": "Run",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -150,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762506601018</updated>
-      <workItem from="1762506603706" duration="3644000" />
+      <workItem from="1762506603706" duration="6941000" />
     </task>
     <servers />
   </component>
