@@ -10,5 +10,13 @@ namespace GCCTags
 		UE_DEFINE_GAMEPLAY_TAG_COMMENT(Secondary, "GCCTags.GCCAbilities.Secondary", "Tag for the Secondary Ability")
 		UE_DEFINE_GAMEPLAY_TAG_COMMENT(Tertiary, "GCCTags.GCCAbilities.Tertiary", "Tag for the Tertiary Ability")
 	}
+
+	namespace Events
+	{
+		namespace Enemy
+		{
+			UE_DEFINE_GAMEPLAY_TAG_COMMENT(HitReact, "GCCTags.Events.Enemy.HitReact", "Tag for the Enemy HitReact Event")
+		}
+	}
 }
 
