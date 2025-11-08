@@ -14,9 +14,14 @@ class GASCRASHCOURSE_API UGCC_Primary : public UGCC_Abilities
 public:
 
 	UFUNCTION(BlueprintCallable, Category = "Crash|Abilities")
-	void HitBoxOverlapTest();
+	TArray<AActor*> HitBoxOverlapTest();
+
+	UFUNCTION(BlueprintCallable, Category = "Crash|Abilities")
+	void SendHitReactEventToActors(const TArray<AActor*>& ActorsHit);
 
 private:
+
+	void DrawHitBoxOverlapDebugs(const TArray<FOverlapResult>& OverlapResults, const FVector& HitBoxLocation) const;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Crash|Abilities")
 	float HitBoxRadius = 100.f;
@@ -26,4 +31,6 @@ private:
 
 	UPROPERTY(EditDefaultsOnly, Category = "Crash|Abilities")
 	float HitBoxElevationOffset = 20.f;
+
+	
 };
