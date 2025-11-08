@@ -19,7 +19,7 @@ class GASCRASHCOURSE_API AGCC_PlayerState : public APlayerState, public IAbility
 public:
 	AGCC_PlayerState();
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
-
+	UAttributeSet* GetAttributeSet() const { return AttributeSet; };
 private:
 
 	UPROPERTY(VisibleAnywhere, Category = "Crash|Abilities")
