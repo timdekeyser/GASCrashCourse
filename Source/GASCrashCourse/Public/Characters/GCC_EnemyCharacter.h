@@ -6,6 +6,7 @@
 #include "GCC_BaseCharacter.h"
 #include "GCC_EnemyCharacter.generated.h"
 
+class UAttributeSet;
 class UGCC_AbilitySystemComponent;
 
 UCLASS()
@@ -24,5 +25,8 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UGCC_AbilitySystemComponent> AbilitySystemComponent;
+
+	UPROPERTY()
+	TObjectPtr<UAttributeSet> AttributeSet;
 
 };
