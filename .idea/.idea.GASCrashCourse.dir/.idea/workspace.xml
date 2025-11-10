@@ -8,16 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01bb5365-f6a2-4173-819b-ef91e1c8154e" name="Changes" comment="InitialProject Some feature are already implemented">
-      <change afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Private/UI/GCC_WidgetComponent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Public/UI/GCC_WidgetComponent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GASCrashCourse.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GASCrashCourse.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/GASCrashCourse.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/GASCrashCourse.Build.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/Private/Characters/GCC_EnemyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Private/Characters/GCC_EnemyCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/Private/Characters/GCC_PlayerCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Private/Characters/GCC_PlayerCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/Public/Characters/GCC_BaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Public/Characters/GCC_BaseCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/Public/Characters/GCC_EnemyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Public/Characters/GCC_EnemyCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/Public/Characters/GCC_PlayerCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Public/Characters/GCC_PlayerCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/Public/Player/GCC_PlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Public/Player/GCC_PlayerState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/Private/AbilitySystem/GCC_AttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Private/AbilitySystem/GCC_AttributeSet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/Private/UI/GCC_WidgetComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Private/UI/GCC_WidgetComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/Public/AbilitySystem/GCC_AttributeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Public/AbilitySystem/GCC_AttributeSet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASCrashCourse/Public/UI/GCC_WidgetComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASCrashCourse/Public/UI/GCC_WidgetComponent.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +58,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "Uproject.GASCrashCourse.executor": "Debug",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -158,6 +154,9 @@
       <workItem from="1762570947713" duration="53000" />
       <workItem from="1762571012936" duration="1495000" />
       <workItem from="1762606846277" duration="4457000" />
+      <workItem from="1762652695403" duration="2136000" />
+      <workItem from="1762810465559" duration="169000" />
+      <workItem from="1762810653021" duration="989000" />
     </task>
     <servers />
   </component>
