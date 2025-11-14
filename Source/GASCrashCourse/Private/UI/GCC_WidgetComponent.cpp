@@ -5,7 +5,9 @@
 
 #include "AbilitySystem/GCC_AttributeSet.h"
 #include"AbilitySystem/GCC_AbilitySystemComponent.h"
+#include "Blueprint/WidgetTree.h"
 #include "Characters/GCC_BaseCharacter.h"
+#include "UI/GCC_AttributeWidget.h"
 
 
 void UGCC_WidgetComponent::BeginPlay()
@@ -60,7 +62,29 @@ void UGCC_WidgetComponent::OnASCInitialized(UAbilitySystemComponent* ASC, UAttri
 
 void UGCC_WidgetComponent::BindToAttributeChanges()
 {
-	
+	for (const TTuple<FGameplayAttribute, FGameplayAttribute>& Pair : AttributeMap)
+	{
+		BindWidgetToAttributeChange(GetUserWidgetObject(), Pair); // Checking the owned widget object.
+
+		GetUserWidgetObject()->WidgetTree->ForEachWidget([this, &Pair](UWidget* ChildWidget)
+		{
+			BindWidgetToAttributeChange(ChildWidget, Pair);		
+		});
+	}
+}
+
+void UGCC_WidgetComponent::BindWidgetToAttributeChange(UWidget* WidgetObject, const TTuple<FGameplayAttribute, FGameplayAttribute>& Pair) const
+{
+	UGCC_AttributeWidget* AttributeWidget = Cast<UGCC_AttributeWidget>(WidgetObject);
+	if (!IsValid(AttributeWidget)) return; // We only care about GCC Attribute Widgets.
+	if (!AttributeWidget->MatchesAttributes(Pair)) return; // Only subscribe for matching Attributes.
+
+	AttributeWidget->OnAttributeChange(Pair, AttributeSet.Get()); // for initial value.
+
+	AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(Pair.Key).AddLambda([this, AttributeWidget, &Pair](const FOnAttributeChangeData& AttributeChangeData)
+	{
+		AttributeWidget->OnAttributeChange(Pair, AttributeSet.Get()); // For changes during the game.
+	});
 }
 
 
